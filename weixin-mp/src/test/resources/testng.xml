@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Weixin-java-tool-suite" verbose="1">
+	<test name="API_Test">
+		<classes>
+      <class name="com.yonyou.weixin.mp.api.WxMpBusyRetryTest" />
+<!--			<class name="WxMpBaseAPITest" />
+			<class name="WxMpCustomMessageAPITest" />
+			<class name="WxMpMenuAPITest" />
+			<class name="WxMpGroupAPITest" />
+			<class name="WxMpMassMessageAPITest" />
+			<class name="WxMpMediaAPITest" />
+			<class name="WxMpUserAPITest" />
+			<class name="WxMpQrCodeAPITest" />
+			<class name="WxMpShortUrlAPITest" />
+			<class name="WxMpMessageRouterTest" />
+			  <class name="WxMpJsAPITest" />
+			  <class name="WxMpMiscAPITest" />-->
+		</classes>
+	</test>
+
+	<test name="Bean_Test">
+		<classes>
+<!--			<class name="WxMpCustomMessageTest" />
+			<class name="WxMpXmlMessageTest" />
+			<class name="WxMpXmlOutImageMessageTest" />
+			<class name="WxXmlOutMusicMessageTest" />
+			<class name="WxXmlOutNewsMessageTest" />
+			<class name="WxXmlOutVideoMessageTest" />
+			<class name="WxXmlOutVoiceMessageTest" />
+			<class name="WxXmlOutTextMessageTest" />-->
+		</classes>
+	</test>
+</suite>

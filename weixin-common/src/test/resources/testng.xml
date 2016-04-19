@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Weixin-suite" verbose="1">
+  <test name="Bean_Test">
+    <classes>
+<!--      <class name="WxAccessTokenTest"/>
+      <class name="WxErrorTest"/>
+      <class name="WxMenuTest"/>
+      <class name="WxCryptUtilTest"/>
+      <class name="WxMessageInMemoryDuplicateCheckerTest"/>
+      <class name="SessionTest" />-->
+    </classes>
+  </test>
+</suite>

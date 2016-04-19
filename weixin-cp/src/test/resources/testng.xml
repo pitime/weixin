@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Weixin-java-tool-suite" verbose="1">
+  <test name="API_Test">
+    <classes>
+<!--      <class name="WxCpBusyRetryTest"/>
+      <class name="WxCpBaseAPITest"/>
+      <class name="WxCpMessageAPITest"/>
+      <class name="WxMenuAPITest"/>
+      <class name="WxCpDepartAPITest"/>
+      <class name="WxCpMediaAPITest"/>
+      <class name="WxCpMessageRouterTest"/>
+      <class name="WxCpTagAPITest"/>
+      <class name="WxCpUserAPITest"/>-->
+    </classes>
+  </test>
+
+  <test name="Bean_Test">
+    <classes>
+<!--      <class name="WxCpMessageTest"/>
+      <class name="WxCpXmlMessageTest"/>
+      <class name="WxCpXmlOutImageMessageTest"/>
+      <class name="WxCpXmlOutNewsMessageTest"/>
+      <class name="WxCpXmlOutVideoMessageTest"/>
+      <class name="WxCpXmlOutVoiceMessageTest"/>
+      <class name="WxCpXmlOutTextMessageTest"/>-->
+    </classes>
+  </test>
+</suite>
